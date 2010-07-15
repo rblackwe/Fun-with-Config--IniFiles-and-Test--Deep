@@ -19,6 +19,7 @@ while ( defined ( my $file = $iter->() ) ) {
 }
 
 
+exit;
 #Sections names should be unique accross all files
 foreach my $section (keys %SECTIONS) {
 	cmp_ok( scalar @{ $SECTIONS{ $section } }, '==', 1, "[$section] is in " . join " ", @{ $SECTIONS{$section} } ); 

@@ -1,8 +1,12 @@
 This is just a proof concept.  I think it might be worth of blogging about someday.
 Until then ... this is it.
 
+
 Example
 =======
+
+<pre>
+
 prove -v test.t
 test.t .. 
 ok 1 - task b in ini/file_1.ini
@@ -41,3 +45,4 @@ test.t (Wstat: 768 Tests: 5 Failed: 3)
 Files=1, Tests=5,  0 wallclock secs ( 0.03 usr  0.01 sys +  0.06 cusr  0.01 csys =  0.11 CPU)
 Result: FAIL
 
+</pre>
